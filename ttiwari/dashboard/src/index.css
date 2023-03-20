@@ -1,0 +1,71 @@
+body {
+  background-color: lightblue;
+}
+.title{
+  display: flex;
+  justify-content: center;
+  font-family: "Times New Roman", Times, serif;
+  color: white
+}
+.map{
+  display: flex;
+  justify-content: center;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.dropdown{
+  display: flex;
+  justify-content: center;
+}
+.dropdown_compare{
+  display: flex;
+}
+.heading{
+  display: flex;
+  justify-content: center;
+  font-family: "Times New Roman", Times, serif;
+  color: black
+}
+
+.sidebyside{display:flex; flex-direction:row;}
+.parent {
+  border: 1px solid black;
+  margin: 1rem;
+  padding: 2rem 2rem;
+  text-align: center;
+}
+.child {
+  display: inline-block;
+  border: 1px solid red;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+}
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: 'Poppins', sans-serif;
+}
+html {
+
+  overflow: -moz-scrollbars-vertical;
+  overflow-y: scroll;
+}
+pre {
+  font-size: 7em;
+}
+.marks .land {
+  fill: lightgreen;
+}
+.marks .sphere {
+  fill: darkblue;
+}
+.marks .interiors {
+  fill: none;
+  stroke: blue;
+}
+.marks .graticules {
+  fill: none;
+  stroke: grey;
+}
